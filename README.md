@@ -12,6 +12,7 @@ If making changes locally, "Update extensions now" will need to be clicked befor
 ### Known Issues (feel free to fork and PR)
 
 * Treeview causes unnecessary whitespace in header of file
+* Plugin only loads if `/files` is the first page viewed or the PR is refreshed after going to the files tab
 
 ### TODO (feel free to fork and PR)
 

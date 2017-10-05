@@ -7,6 +7,8 @@
 1. Click 'Load unpacked extension...'
 1. Choose the root folder of this repo
 
+If making changes locally, "Update extensions now" will need to be clicked before Chrome sees the changes.
+
 ### Known Issues (feel free to fork and PR)
 
 * Treeview causes unnecessary whitespace in header of file

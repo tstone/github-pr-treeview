@@ -10,15 +10,7 @@ function insertTreeView(filesBucket) {
   var treeData = buildTree(paths);
 
   // Update HTML and render tree view
-  $('.js-diff-progressive-container').css({
-    'margin-left': '365px'
-  })
   var fileTree = $('<div id="file-tree"></div>');
-  fileTree.css({
-    width: '350px',
-    margin: 0,
-    float: 'left'
-  });
   filesBucket.find('#files').prepend(fileTree);
   fileTree.tree({ data: treeData });
 }

@@ -4,6 +4,7 @@
 
 1. Clone this repo `git clone git@github.com:tstone/github-pr-treeview.git`
 1. Navigate to [chrome://extensions/](chrome://extensions/)
+1. Make sure "developer mode" is enabled
 1. Click 'Load unpacked extension...'
 1. Choose the root folder of this repo
 

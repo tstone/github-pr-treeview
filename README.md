@@ -19,3 +19,4 @@ If making changes locally, "Update extensions now" will need to be clicked befor
 * All files should be hidden except the one selected in the treeview.
 * When clicking a file in the treeview, the previous file should disappear and the clicked file should appear.
 * Improve styling of treeview
+* Move CSS changes into css file.  Use javascript to apply class instead of having CSS in the JS.

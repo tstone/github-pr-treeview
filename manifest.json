@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Github PR Treeview",
+  "description": "Renders a treeview of the files changed within a PR",
+  "version": "1.0",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "js": [
+        "jquery-3.2.1.min.js",
+        "tree.jquery.js",
+        "gh-pr.js"
+      ],
+      "css": [
+        "jqtree.css",
+        "gh-pr.css"
+      ],
+      "matches": [
+        "*://github.com/*/pull/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "ui.css"
+  ]
+}

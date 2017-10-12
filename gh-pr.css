@@ -1,0 +1,18 @@
+#files {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#file-tree {
+  flex-basis: 20%;
+  /* max-width: 20%; */
+  padding-right: 10px;
+  align-self: flex-start;
+}
+
+.js-diff-progressive-container {
+  flex-basis: 80%;
+  /* max-width: 80%; */
+  align-self: flex-end;
+}
